@@ -1,35 +1,63 @@
-form{
-    width: 400px;
-    margin: auto;
-    padding-top: 40px;
-}
+/*Estilos da página index.html*/
 
-label{
-    width: 100%;
-    color: rgb(75, 75, 75);
-    display: block;
-}
-input{
-    border-radius: 5px;
-    outline: 0;
-    width: 75%;
-    padding: 5px;
-}
-
-button{
-    background-image: linear-gradient(to right, #dc3545, #6e111a);
-    width: 80%;
-    border-radius: 30px;
-    padding: 3px;
-    color: white;
-    border: 0px;
-    outline: 0;
-
-}
-button:hover{
-    background-image: linear-gradient(to right, #dc3545, #4e0c13);
-}
-
-h1{
+.center{
     text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color:grey;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 05px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+.p-text{
+    padding-left: 30px;
+    padding-right: 350px;
+}
+.p-nome{
+    padding-left: 230px;
+    margin: 0;
+}
+.p-img{
+    padding: 30px;
+    margin-left: 200px;
+}
+.br-50{
+    border-radius: 50%;
+}
+.wh{
+    width: 300px;
+    height: 300px;
+}
+/*Estilos da página contato.html*/
+.ml-50{
+    margin-left: 200;
 }
